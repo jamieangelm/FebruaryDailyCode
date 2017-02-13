@@ -122,11 +122,11 @@ int main() {
 
 	if ((dog > whale) && (dog > cat) && (dog > snail))
 		cout << "You are a DOG!" << endl;
-	if ((whale > dog) && (whale > cat) && (whale > snail))
+	else if ((whale > dog) && (whale > cat) && (whale > snail))
 		cout << "You are a WHALE!" << endl;
-	if ((cat > dog) && (cat > whale) && (cat > snail))
+	else if ((cat > dog) && (cat > whale) && (cat > snail))
 		cout << "You are a CAT!" << endl;
-	if ((snail > dog) && (snail > whale) && (snail > cat))
+	else if ((snail > dog) && (snail > whale) && (snail > cat))
 		cout << "You are a SNAIL!" << endl;
 
 }
