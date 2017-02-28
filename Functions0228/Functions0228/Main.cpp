@@ -26,7 +26,7 @@ void Annoying() {
 		beep1 -= 100;
 		Beep(beep1, beep2);
 	
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < 10; i++)
 	MessageBox(NULL, "levy's ugly", "boi", MB_OK);
 
 	}
