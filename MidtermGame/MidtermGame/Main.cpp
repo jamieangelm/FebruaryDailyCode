@@ -1,10 +1,18 @@
 #include <iostream>
+#include <string>
 using namespace std;
+
+bool apple = 0; //adds ~ 10 health
+bool key = 0; //needed to finish game
+bool goldenapple = 0; //adds ~ 60 health
+bool sword = 0; //fite them guardz
+
 int main() {
 	
 	char input = 'a';
 	int room = 1;
-	string inventory[3];
+	string inventory[3]{apple, key, goldenapple, sword}
+	
 	for (int i = 0; i < 3; i++)
 		inventory[i] = " ";
 
@@ -20,7 +28,7 @@ int main() {
 			break;
 
 		case 2:
-			cout << "you're in room 2, where you found a key! you can go east(e) or south (s)!";
+			cout << "you're in room 2, where you found an apple! you can go east(e) or south (s)!";
 			cin >> input;
 			if (input == 'e')
 				room = 3;
@@ -38,7 +46,7 @@ int main() {
 			break;
 
 		case 4:
-			cout << "you're in room 4! you can go north(n) or west(w)!";
+			cout << "you're in room 4, where you found a key! you can go north(n) or west(w)!";
 			cin >> input;
 			if (input == 'n')
 				room = 3;
