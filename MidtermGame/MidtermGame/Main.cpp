@@ -84,6 +84,33 @@ int main() {
 			if (input == 'w')
 				room = 5;
 			break;
+
+		case 8:
+			cout << "you're in room 7! you see a door that needs a key!";
+			cin >> input;
+			if (input == 'n')
+				room = 1;
+			if (input == 'w')
+				room = 5;
+			break;
+
+		case 9:
+			cout << "you're in room 7! you see a door that needs a key!";
+			cin >> input;
+			if (input == 'n')
+				room = 1;
+			if (input == 'w')
+				room = 5;
+			break;
+
+		case 10:
+			cout << "you're in room 7! you see a door that needs a key!";
+			cin >> input;
+			if (input == 'n')
+				room = 1;
+			if (input == 'w')
+				room = 5;
+			break;
 		}
 	}
 }
